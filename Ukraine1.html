@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Ukraine1.css"/>
+</head>
+<body>
+<script src="Ukraine1.js"></script>
+
+<div class="main-position">
+<form id="oler" onsubmit="return checkout (this)" method = "post"><a class="text">
+    <center><label for="name" >Введіть ім'я:</label>
+    <input  type="text" name="name" placeholder="Имя" id="name">
+    <br><br>
+    <label for="password">Введіть пароль:</label>
+    <input type="password" name="pass" placeholder="Пароль" id="pass">
+    <br><br>
+    <label for="repass">Перевірка пароля:</label>
+    <input type="password" name="repass" placeholder="Проверка пароля" id="repass">
+    <br><br>
+    <span>Вкажіть стать:</span>
+    <input type="radio" name="state" id="male" value="Мужской">
+    <label for="male">Чоловіча</label>
+    <input type="radio" name="state" id="male" value="Женский">
+    <label for="male">Жіноча</label>
+    <br><br>
+    <div id="mistake" style="color: rgb(4, 2, 2);"></div>
+    <button class="button" type="submit" name="submit">Готово!</button></center>
+  </form></a>
+  </div>
+  <center><p><a class="text">Нажмiть, щоб продовжити ==></a> <button class="button" onclick="accept()" id="otil">Сюди!</button></p></center>
+  
+    
+</body>
+</html>

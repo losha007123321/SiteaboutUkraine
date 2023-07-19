@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.a{
+    font-size: 20px;
+    text-shadow: #FC0 3px 0 10px;
+    font-family: cursive;
+}
+
+body{
+    background-image: url(обои3.jpeg);
+    border: dotted 10px rgb(51, 0, 255);
+    border-radius: 30px;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.names{
+    font-size: 35px;
+    border: 7px solid rgb(0, 17, 251);
+    color: rgb(255, 0, 0);
+    border-radius: 9px;
+    /* background-clip: text;
+  -webkit-background-clip: text; */
+  background: linear-gradient(70deg, blue, yellow, blue, yellow, blue);
+  border: 5mm ridge rgba(211, 220, 50, .6);
+  font-family: cursive;
+  box-shadow: 10px 12px 5px rgb(246, 255, 0);
+}
+
+.a1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.a2{
+    display: flex;
+}
+
+.a3{
+    display: flex;
+    width: 800px;
+    text-align: justify;
+}
+
+.picture{
+    border-radius: 20px;
+    /* background-clip: content-box; */
+    border-style: dotted double;
+    border: rgb(0, 4, 253) 15px double;
+    box-shadow: 13px 15px 7px rgb(246, 255, 0);
+    cursor: help;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: help;
+}
+
+.toss{
+    font-size: 20px;
+    text-shadow: #FC0 1px 0 10px;
+    font-family: cursive;
+}
+
+.top1{
+    display: flex;
+}
+
+.top2{
+    display: flex;
+}
+
+.top3{
+    display: flex;
+}
+
+.top4{
+    display: flex;
+}
+
+.top5{
+    display: flex;
+}
+
+.top6{
+    display: flex;
+}
+
+.a100{
+    font-size: 24px;
+    text-shadow: rgb(255, 8, 0) 8px 0 8px;
+    font-family: cursive;
+    color: rgb(255, 242, 0);
+}
+
+.returning{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 7px double rgb(25, 0, 255);
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    margin-left: 1200px;
+    margin-top: 50px;
+}
+
+.last-button{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 7px double rgb(25, 0, 255);
+    background-color: rgb(255, 255, 255);
+
+}
+    </style>
+
+    <script>
+function aa(event){
+    var upol = confirm("Перейти по посиланню?");
+    if (upol == true){
+    console.log(upol);
+    }else{
+    
+    event.preventDefault();
+    return false;
+    }
+    }
+    </script>
+    
+    <a href="#начало"><button class="returning">Повернутися до гори.</button></a>
+<p class="a" id="начало"><b>Тваринний світ України</b> відрізняється розмаїтим видовим складом і нараховує майже 45 тисяч видів тварин. Цi види раздiляють на фауну безхребетних, 
+    iхтіофауну герпетофауну, орнітофауну, теріофауну та регіональна фауну.</p>
+    <br><br>
+    <p class="a">Оберiть iнформацiю, яку хочете переглянути:</p>
+<div class="toss">
+    <ul>
+    <li><div class="top1"><a href="#Фауна безхребетних." class="a100">Фауна безхребетних.</a></div></li>
+    <li><div class="top2"><a href="#Іхтофауна." class="a100">Іхтофауна.</a></div></li>
+    <li><div class="top3"><a href="#Герпетофауна." class="a100">Герпетофауна.</a></div></li>
+    <li><div class="top4"><a href="#Орнітофауна." class="a100">Орнітофауна.</a></div></li>
+    <li><div class="top5"><a href="#Теріофауна." class="a100">Теріофауна.</a></div></li>
+    <li><div class="top6"><a href="#Регіональна фауна." class="a100">Регіональна фауна.</a></div></li>
+</ul>
+</div>
+<br><br>
+    <p><a class="names" id="Фауна безхребетних.">Фауна безхребетних.</a></p>
+    <br><br><br>
+    <div class="a1">
+        <div class="a2">
+    <a href="https://uk.wikipedia.org/wiki/%D0%91%D0%B5%D0%B7%D1%85%D1%80%D0%B5%D0%B1%D0%B5%D1%82%D0%BD%D1%96" target="_blank" onclick="aa(event)"><img src="Безхребетнi.jpg" title="Фауна безхребетних!" width="450px" height="350px" class="picture"></a>
+        </div>
+        <div class="a3">
+    <p class="a"><b>Безхребетні</b> — сукупна назва тварин, що не мають хребта. Введений <a href="https://uk.wikipedia.org/wiki/%D0%96%D0%B0%D0%BD_%D0%91%D0%B0%D1%82%D0%B8%D1%81%D1%82_%D0%9B%D0%B0%D0%BC%D0%B0%D1%80%D0%BA" target="_blank" onclick="aa(event)">Ж. Б. Ламарком</a> на початку 19 ст. поділ царства тварин на безхребетних 
+        і хребетних не має систематичного значення (оскільки роз'єднує єдиний тип хордових, не всі представники якого мають хребет), проте широко використовується. 
+        Об'єм і таксономічний ранг багатьох груп безхребетних остаточно не встановлені (наприклад, розрізняють від 1 до 5—7 типів простих (дискусійна система) 
+        <a href="https://uk.wikipedia.org/wiki/%D0%A7%D0%B5%D1%80%D0%B2%27%D1%8F%D0%BA%D0%B8" target="_blank" onclick="aa(event)">черв'яків</a> і т. д.). Зазвичай розрізняють 16—23 типи безхребетних, іноді більше. В Україні відомо понад 35 тис. <a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%B0%D1%85%D0%B8" target="_blank" onclick="aa(event)">комах</a>, майже 3,5 тис. інших <a href="https://uk.wikipedia.org/wiki/%D0%A7%D0%BB%D0%B5%D0%BD%D0%B8%D1%81%D1%82%D0%BE%D0%BD%D0%BE%D0%B3%D1%96" target="_blank" onclick="aa(event)">членистоногих</a>, 
+        1800 <a href="https://uk.wikipedia.org/wiki/%D0%9D%D0%B0%D0%B9%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%96%D1%88%D1%96" target="_blank" onclick="aa(event)">найпростіших</a>, 1600 <a href="https://uk.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BC%D0%B0%D1%82%D0%BE%D0%B4%D0%B8" target="_blank" onclick="aa(event)">круглих червів</a>, 1280 <a href="https://uk.wikipedia.org/wiki/%D0%9F%D0%BB%D0%BE%D1%81%D0%BA%D1%96_%D1%87%D0%B5%D1%80%D0%B2%D0%B8" target="_blank" onclick="aa(event)">плоских черві</a>в та 440 <a href="https://uk.wikipedia.org/wiki/%D0%9A%D1%96%D0%BB%D1%8C%D1%87%D0%B0%D1%81%D1%82%D1%96_%D1%87%D0%B5%D1%80%D0%B2%D0%B8" target="_blank" onclick="aa(event)">кільчастих червів</a>.</p>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <p><a class="names" id="Іхтофауна.">Іхтофауна.</a></p>
+    <br><br><br>
+    <div class="a1">
+        <div class="a3">
+    <p class="a"><a href="https://uk.wikipedia.org/wiki/%D0%86%D1%85%D1%82%D1%96%D0%BE%D1%84%D0%B0%D1%83%D0%BD%D0%B0" target="_blank" onclick="aa(event)"><b>Іхтіофауна</b></a> України відрізняється великим різноманіттям. <a href="https://uk.wikipedia.org/wiki/%D0%A0%D0%B8%D0%B1%D0%B8" target="_blank" onclick="aa(event)">Риби</a> в Україні представлені 63 родинами, 135 родами, що об'єднують більше 200 видів, 
+        22 з яких акліматизовані. Вони населяють <a href="https://uk.wikipedia.org/wiki/%D0%A7%D0%BE%D1%80%D0%BD%D0%B5_%D0%BC%D0%BE%D1%80%D0%B5" target="_blank" onclick="aa(event)">Чорне</a> та <a href="https://uk.wikipedia.org/wiki/%D0%90%D0%B7%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B5_%D0%BC%D0%BE%D1%80%D0%B5" target="_blank" onclick="aa(event)">Азовське моря</a>, чисельні річки, озера, струмки, а також штучно створені людиною ставки, канали тощо. 
+        У Чорному морі нараховують 170 видів суто морських риб, а враховуючи мешканців річок, що можуть зустрічатись у солонуватій воді, їх кількість досягає 
+        180 — 190 видів. У Азовському морі — близько 115 видів. У басейні <a href="https://uk.wikipedia.org/wiki/%D0%94%D1%83%D0%BD%D0%B0%D0%B9" target="_blank" onclick="aa(event)">Дунаю</a> з морем, відомо приблизно 100 видів риб. Найбільш розповсюдженими є 
+        чорноморсько-азовський оселедець, карась, короп, лящ, сом і краснопірка. У басейні Дністра налічують 105 видів риб, у Південному Бузі — 75. У басейні 
+        Дніпра нараховують 61 вид, найчисленніші приблизно 20. Серед них тюлька, щука, плітка, в'язь, краснопірка, білий амур, білизна, лин, верховодка, 
+        плоскирка, лящ, синець, піскар, чехоня, карась, короп, білий та строкатий товстолоби, сом, судак, окунь, бички. У Сіверському Донці нараховують 
+        45 видів риб, більшість з яких належить до родини коропових.</p>
+        </div>
+        <div class="a2">
+    <a href="https://uk.wikipedia.org/wiki/%D0%86%D1%85%D1%82%D1%96%D0%BE%D1%84%D0%B0%D1%83%D0%BD%D0%B0" target="_blank" onclick="aa(event)"><img src="Ихтофауна.png" title="Іхтіофауна!" width="480px" height="380px" class="picture"></a>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <p><a class="names" id="Герпетофауна.">Герпетофауна.</a></p>
+    <br><br><br>
+    <div class="a1">
+        <div class="a2">
+    <a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D0%BB%D0%B0%D0%B7%D1%83%D0%BD%D1%96%D0%B2_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8" target="_blank" onclick="aa(event)"><img src="Герпетофауна.jpg" title="Герпетофауна!" width="450px" height="350px" class="picture"></a>
+        </div>
+        <div class="a3">
+    <p class="a">Загалом підтверджено мешкання 23 видів (11 видів змій, 11 видів ящірок та 1 виду черепах), 15 родів, 7 родин та 2 рядів плазунів в Україні. 
+        Однак, така кількість може різнитися в різних джерелах, зважаючи на те, що не до кінця чітким є статус <a href="https://uk.wikipedia.org/wiki/%D0%93%D0%B0%D0%B4%D1%8E%D0%BA%D0%B0_%D0%9D%D1%96%D0%BA%D0%BE%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE" target="_blank" onclick="aa(event)">гадюки Нікольського</a>, яку не всі науковці 
+        виділяють в окремий вид; також необхідне уточнення щодо <a href="https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D1%82%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D1%96_%D0%B2%D0%B8%D0%B4%D0%B8" target="_blank" onclick="aa(event)">інтродукції</a> <a href="https://uk.wikipedia.org/wiki/%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%BE%D0%B2%D1%83%D1%85%D0%B0_%D1%87%D0%B5%D1%80%D0%B5%D0%BF%D0%B0%D1%85%D0%B0_%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B0" target="_blank" onclick="aa(event)">червоновухої черепахи</a> звичайної (ця черепаха потенційно може бути новим та 
+        інвазивним видом в українській герпетофауні). Один вид ящірок, який мешкає на теренах України та східної Європи — веретільниця східна — отримав 
+        статус виду лише в 2010 році (до того вважалося, що на теренах України мешкає <a href="https://uk.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D0%B5%D1%82%D1%96%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8F_%D0%BB%D0%B0%D0%BC%D0%BA%D0%B0" target="_blank" onclick="aa(event)">веретільниця ламка</a> (Anguis fragilis)).</p>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <p><a class="names" id="Орнітофауна.">Орнітофауна.</a></p>
+    <br><br><br>
+    <div class="a1">
+        <div class="a3">
+    <p class="a">У складі сучасної <b>орнітофауни</b> України налічують 424 види <a href="https://uk.wikipedia.org/wiki/%D0%9F%D1%82%D0%B0%D1%85%D0%B8" target="_blank" onclick="aa(event)">птахів</a>, що належать до 21 систематичного ряду. В ряду <a href="https://uk.wikipedia.org/wiki/%D0%93%D0%BE%D1%80%D0%BE%D0%B1%D1%86%D0%B5%D0%BF%D0%BE%D0%B4%D1%96%D0%B1%D0%BD%D1%96" target="_blank" onclick="aa(event)">горобцеподібних</a> — 172 види, 
+        у рядах <a href="https://uk.wikipedia.org/wiki/%D0%A4%D0%BB%D0%B0%D0%BC%D1%96%D0%BD%D0%B3%D0%BE%D0%BF%D0%BE%D0%B4%D1%96%D0%B1%D0%BD%D1%96" target="_blank" onclick="aa(event)">фламінгоподібних</a>, <a href="https://uk.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BF%D1%83%D0%B3%D0%BE%D0%BF%D0%BE%D0%B4%D1%96%D0%B1%D0%BD%D1%96" target="_blank" onclick="aa(event)">папугоподібних</a>, <a href="https://uk.wikipedia.org/wiki/%D0%94%D1%80%D1%96%D0%BC%D0%BB%D1%8E%D0%B3%D0%BE%D0%BF%D0%BE%D0%B4%D1%96%D0%B1%D0%BD%D1%96" target="_blank" onclick="aa(event)">дрімлюгоподібних</a> і <a href="https://uk.wikipedia.org/wiki/%D0%9E%D0%B4%D1%83%D0%B4%D0%BE%D0%BF%D0%BE%D0%B4%D1%96%D0%B1%D0%BD%D1%96" target="_blank" onclick="aa(event)">одудоподібних</a> — лише по 1 виду; численними є також ряди <a href="https://uk.wikipedia.org/wiki/%D0%93%D1%83%D1%81%D0%B5%D0%BF%D0%BE%D0%B4%D1%96%D0%B1%D0%BD%D1%96" target="_blank" onclick="aa(event)">гусеподібних</a> — 38 видів, 
+        <a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE%D0%BF%D0%BE%D0%B4%D1%96%D0%B1%D0%BD%D1%96" target="_blank" onclick="aa(event)">соколоподібних</a> — 35 видів, <a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%B8%D0%B2%D0%BA%D0%BE%D0%BF%D0%BE%D0%B4%D1%96%D0%B1%D0%BD%D1%96" target="_blank" onclick="aa(event)">сивкоподібних</a> — 79 видів. Основу орнітофауни становлять близько 270 видів з регулярним гніздуванням у весняно-літній 
+        період, близько 140 видів трапляються взимку, з них майже 20 з'являються регулярно у значних кількостях на території всієї країни лише в 
+        осінньо-зимовий період. З гніздових близько 70 видів є осілими, решта — це <a href="https://uk.wikipedia.org/wiki/%D0%9C%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F_%D0%BF%D1%82%D0%B0%D1%85%D1%96%D0%B2" target="_blank" onclick="aa(event)">перелітні птахи</a>. Майже 40 видів птахів, переважно кулики, є пролітними, 
+        оскільки лише перетинають країну під час <a href="https://uk.wikipedia.org/wiki/%D0%9C%D1%96%D0%B3%D1%80%D0%B0%D1%86%D1%96%D1%8F_%D0%BF%D1%82%D0%B0%D1%85%D1%96%D0%B2" target="_blank" onclick="aa(event)">сезонних міграцій</a>, зупиняючись для перепочинку і живлення. Понад 100 видів належать до залітних і 
+        потрапляють на територію України випадково (наприклад, <a href="https://uk.wikipedia.org/wiki/%D0%94%D1%80%D1%96%D0%B7%D0%B4-%D0%BA%D0%BE%D1%80%D0%BE%D1%82%D0%BA%D0%BE%D0%B4%D0%B7%D1%8C%D0%BE%D0%B1_%D0%A1%D0%B2%D0%B5%D0%BD%D1%81%D0%BE%D0%BD%D0%B0" target="_blank" onclick="aa(event)">дрізд Свенсона</a> (Catharus ustulatus), поширений переважно в Північній Америці).</p>
+        </div>
+        <div class="a2">
+    <a href="https://uk.wikipedia.org/wiki/%D0%9E%D1%80%D0%BD%D1%96%D1%82%D0%BE%D1%84%D0%B0%D1%83%D0%BD%D0%B0" target="_blank" onclick="aa(event)"><img src="Орнитофауна.jpg" title="Орнітофауна!" width="480px" height="380px" class="picture"></a>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <p><a class="names" id="Теріофауна.">Теріофауна.</a></p>
+    <br><br><br>
+    <div class="a1">
+        <div class="a2">
+    <a href="https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D1%80%D1%96%D0%BE%D1%84%D0%B0%D1%83%D0%BD%D0%B0" target="_blank" onclick="aa(event)"><img src="Териофауна.jpg" title="Теріофауна!" width="450px" height="350px" class="picture"></a>
+        </div>
+        <div class="a3">
+    <p class="a">Загальний список фауни <a href="https://uk.wikipedia.org/wiki/%D0%A1%D1%81%D0%B0%D0%B2%D1%86%D1%96" target="_blank" onclick="aa(event)">ссавців</a> включає 132 види, у тім числі 13 адвентивних, 8 вимерлих або імовірно вимерлих і 6 сумнівно присутніх (фантомних). 
+        Базовий список фауни (без адвентивних та фантомних) включає 113 видів, а сучасна фауна (без вимерлих і фантомних) включає 116 видів. Загалом за сумою 
+        всіх даних за останні 2 століття (тобто включно з вимерлими і адвентивними) у складі фауни України відомо <a href="https://uk.wikipedia.org/wiki/%D0%A0%D0%BE%D0%B4%D0%B8_%D1%81%D1%81%D0%B0%D0%B2%D1%86%D1%96%D0%B2_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8" target="_blank" onclick="aa(event)">80 родів ссавців</a>. Загальна кількість видів 
+        за рядами така: <a href="https://uk.wikipedia.org/wiki/%D0%9C%D1%96%D0%B4%D0%B8%D1%86%D0%B5%D0%BF%D0%BE%D0%B4%D1%96%D0%B1%D0%BD%D1%96" target="_blank" onclick="aa(event)">Soriciformes</a> (Insectivora) — 14, <a href="https://uk.wikipedia.org/wiki/%D0%A0%D1%83%D0%BA%D0%BE%D0%BA%D1%80%D0%B8%D0%BB%D1%96" target="_blank" onclick="aa(event)">Vespertilioniformes</a> (Chiroptera) — 26, <a href="https://uk.wikipedia.org/wiki/%D0%A5%D0%B8%D0%B6%D1%96" target="_blank" onclick="aa(event)">Caniformes</a> (Carnivora) — 22, <a href="https://uk.wikipedia.org/wiki/%D0%97%D0%B0%D0%B9%D1%86%D0%B5%D0%BF%D0%BE%D0%B4%D1%96%D0%B1%D0%BD%D1%96" target="_blank" onclick="aa(event)">Leporiformes</a> (Duplicidentata) — 
+        3, <a href="https://uk.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D0%B7%D1%83%D0%BD%D0%B8" target="_blank" onclick="aa(event)">Muriformes</a> (Rodentia) — 52, <a href="https://uk.wikipedia.org/wiki/%D0%9D%D0%B5%D0%BF%D0%B0%D1%80%D0%BD%D0%BE%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%BD%D1%96" target="_blank" onclick="aa(event)">Equiformes</a> (Perissodactyla) — 2, <a href="https://uk.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%BD%D0%BE%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%BD%D1%96" target="_blank" onclick="aa(event)">Cerviformes</a> (Artiodactyla) — 9, <a href="https://uk.wikipedia.org/wiki/%D0%9A%D0%B8%D1%82%D0%BE%D0%BF%D0%BE%D0%B4%D1%96%D0%B1%D0%BD%D1%96" target="_blank" onclick="aa(event)">Delphiniformes</a> (Cetacea) — 4. Загальна кількість 
+        видів ссавців, що мають охоронний статус згідно з додатками до Бернської конвенції, становить 81 вид, у тім числі 45 видів — з додатку «2» та 36 
+        видів — з додатку «3».</p>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <p><a class="names" id="Регіональна фауна.">Регіональна фауна.</a></p>
+    <br><br><br>
+    <div class="a1">
+        <div class="a3">
+    <p class="a">На території України — багато унікальних природних місцевостей, де мешкають рідкісні реліктові тварини. Для лісової зони характерні 
+        <a href="https://uk.wikipedia.org/wiki/%D0%9B%D0%BE%D1%81%D1%8C" target="_blank" onclick="aa(event)">лось</a>, сарни, <a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%B2%D0%B8%D0%BD%D1%8F_%D0%B4%D0%B8%D0%BA%D0%B0" target="_blank" onclick="aa(event)">кабан</a>, олень благородний, <a href="https://uk.wikipedia.org/wiki/%D0%92%D0%B8%D0%B2%D1%96%D1%80%D0%BA%D0%B0_%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B0" target="_blank" onclick="aa(event)">вивірка звичайна</a>; є чимало лисиць і <a href="https://uk.wikipedia.org/wiki/%D0%92%D0%BE%D0%B2%D0%BA" target="_blank" onclick="aa(event)">вовків</a>. Зустрічаються бурий ведмідь, рись. З птахів найбільше тетеруків, 
+        рябчиків, глухарів, шпаків, синиць, дроздів, лелек. У <a href="https://uk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BF" target="_blank" onclick="aa(event)">степовій смузі</a> водяться ховрахи, хом'яки, <a href="https://uk.wikipedia.org/wiki/%D0%A2%D1%83%D1%88%D0%BA%D0%B0%D0%BD" target="_blank" onclick="aa(event)">тушкани</a>, польові миші, бабаки; з птахів — жайворонок, 
+        перепілка, рожевий шпак, степовий орел. Деяких <a href="https://uk.wikipedia.org/wiki/%D0%A5%D1%83%D1%82%D1%80%D0%BE%D0%B2%D1%96_%D0%B7%D0%B2%D1%96%D1%80%D1%96" target="_blank" onclick="aa(event)">хутрових звірів</a> — нутрія, візон («американська норка»), <a href="https://uk.wikipedia.org/wiki/%D0%9E%D0%BD%D0%B4%D0%B0%D1%82%D1%80%D0%B0" target="_blank" onclick="aa(event)">ондатра</a> тощо — завезено з інших районів, і вони 
+        добре акліматизувалися. Дуже різноманітний тваринний світ на Азово-Чорноморському узбережжі в дельтах річок. Особливо багато птахів — мартини, норці, 
+        качки, чаплі, бугаї, пелікани, чайки, баклани. У Чорному та Азовському морях є осетер, скумбрія, ставрида, кефаль, оселедці, бички. У річках, озерах і 
+        штучних водоймах водяться окунь, лящ, судак, щука, карась, короп, у карпатських річках є форель. Унікальною є <a href="https://uk.wikipedia.org/wiki/%D0%A4%D0%B0%D1%83%D0%BD%D0%B0_%D0%9A%D1%80%D0%B8%D0%BC%D1%83" target="_blank" onclick="aa(event)">фауна Криму</a>. На Південному березі Криму 
+        та гірській частині півострова, де кліматичні умови близькі до <a href="https://uk.wikipedia.org/wiki/%D0%A1%D0%B5%D1%80%D0%B5%D0%B4%D0%B7%D0%B5%D0%BC%D0%BD%D0%BE%D0%BC%D0%BE%D1%80%27%D1%8F" target="_blank" onclick="aa(event)">Середземномор'я</a>, поширені такі тварини як кримська і скельна ящірки, полоз леопардовий, 
+        соловейко південний, чорний гриф, олень благородний, муфлон.</p>
+        </div>
+        <div class="a2">
+    <a href="https://sites.google.com/site/ukraienskafauna/home/regionalna-fauna" target="_blank" onclick="aa(event)"><img src="Регфауна.jpg" title="Регіональна фауна!" width="480px" height="380px" class="picture"></a>
+        </div>
+    </div>
+
+    <center><p><a href="Ukraine2.html"><button class="last-button">Повернутися до головної сторiнки.</button></a></p></center>
+
+
+
+</body>
+</html>

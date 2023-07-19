@@ -1,0 +1,434 @@
+.a{
+    font-size: 20px;
+    text-shadow: #FC0 3px 0 10px;
+    font-family: cursive;
+}
+li::marker{
+    content: "=>";
+}
+
+.a1234{
+    font-size: 20px;
+    text-shadow: #FC0 3px 0 10px;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.returning{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 7px double rgb(255, 0, 0);
+    background-color: rgb(21, 255, 0);
+    position: fixed;
+    margin-left: 1170px;
+    margin-top: 5px;
+}
+
+.poster{
+    font-size: 50px;
+    color: yellow;
+    text-shadow: rgb(1, 1, 8) 8px 0 0px;
+    font-family: fantasy;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    cursor: help;
+    text-decoration: none;
+}
+
+.names{
+    font-size: 35px;
+    border: 7px solid rgb(0, 17, 251);
+    color: rgb(255, 0, 0);
+    border-radius: 9px;
+    /* background-clip: text;
+  -webkit-background-clip: text; */
+  background: linear-gradient(70deg, blue, yellow, blue, yellow, blue);
+  border: 5mm ridge rgba(50, 132, 220, 0.6);
+  font-family: cursive;
+  box-shadow: 10px 12px 5px rgb(246, 255, 0);
+  /* overflow-y: scroll; */
+  /* scroll-behavior: smooth; */
+}
+
+body{
+    background-image: url(обои2.jpg);
+    background-attachment: fixed;
+    border: dotted 10px rgb(255, 255, 0);
+    border-radius: 30px;
+    background-size: 100%;
+}
+
+.a1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.a2{
+    width: 700px;
+    text-align: justify;
+}
+
+.a3{
+    display: flex;
+    margin-top: 35px;
+}
+
+.b1{
+display: flex;
+justify-content: space-around;
+}
+
+.b2{
+display: flex;
+
+}
+
+.b3{
+    display: flex;
+    width: 1000px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.c1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.c2{
+    display: flex;
+    width: 700px;
+    text-align: justify;
+}
+
+.c3{
+    display: flex;
+    margin-top: 64px;
+}
+
+.d1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.d2{
+    display: flex;
+}
+
+.d3{
+    display: flex;
+    width: 750px;
+    text-align: justify;
+}
+
+.e1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.e2{
+    display: flex;
+}
+
+.e3{
+    display: flex;
+   width: 800px;
+   text-align: justify;
+}
+
+.picture{
+    border-radius: 20px;
+    /* background-clip: content-box; */
+    border-style: dotted double;
+    border: rgb(0, 4, 253) 15px double;
+    box-shadow: 13px 15px 7px rgb(246, 255, 0);
+    cursor: help;
+}
+
+.links{
+    font-size: 25px;
+    border: 5px solid rgb(255, 251, 0);
+    width: 700px;
+    border-radius: 20px;
+    box-shadow: 8px 8px 10px 0 #ffff14, -5px -10px 6px 0 rgb(34, 2, 242), 5px 10px 15px 0 rgb(34, 36, 33);
+}
+
+.name2{
+font-size: 24;
+text-decoration: underline;
+color: rgb(246, 255, 0);
+background-color: linear-gradient(60deg, red, yellow, red, yellow, red);
+text-decoration: wavy underline blue;
+}
+
+.f1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.f2{
+    display: flex;
+}
+
+.f3{
+    display: flex;
+}
+
+
+.g1{
+    display: flex;
+}
+
+.g2{
+    display: flex;
+    margin-left: 320px;
+}
+
+.g3{
+    display: flex;
+    margin-left: 550px;
+}
+
+.skind1{
+    font-size: 40px;
+    border: 7px solid rgb(0, 17, 251);
+    color: rgb(0, 0, 0);
+    border-radius: 9px;
+    backdrop-filter: blur(3px);
+    margin-top: 100px;
+    background: linear-gradient(70deg, blue, yellow, blue, yellow, blue);
+    border: 5mm ridge rgba(73, 50, 220, 0.6);
+  box-shadow: 10px 12px 5px rgb(246, 255, 0);
+}
+
+.skind2{
+    font-size: 40px;
+    border: 7px solid rgb(0, 17, 251);
+    color: rgb(0, 0, 0);
+    border-radius: 9px;
+    backdrop-filter: blur(3px);
+    margin-top: 100px;
+    background: linear-gradient(70deg, blue, yellow, blue, yellow, blue);
+  border: 5mm ridge rgba(73, 50, 220, 0.6);
+  box-shadow: 10px 12px 5px rgb(246, 255, 0);
+}
+
+.picture2{
+    border-radius: 20px;
+    border: 12px solid rgb(255, 251, 0);
+    border-style: dotted double;
+}
+
+
+.last-comment{
+    font-size: 28px;
+    border-radius: 9px;
+  border: 5mm ridge rgba(211, 220, 50, .6);
+  font-family: cursive;
+}
+
+.last-comment1{
+    font-size: 28px;
+    border-radius: 9px;
+  border: 5mm ridge rgb(255, 0, 0);
+  font-family: cursive;
+  color: blue;
+}
+
+.toss{
+    font-size: 20px;
+    text-shadow: #FC0 1px 0 10px;
+    font-family: cursive;
+}
+
+.top1{
+    display: flex;
+}
+
+.top2{
+    display: flex;
+}
+
+.top3{
+    display: flex;
+}
+
+.top4{
+    display: flex;
+}
+
+.top5{
+    display: flex;
+}
+
+.names2{
+    font-size: 35px;
+    border: 7px solid rgb(0, 17, 251);
+    color: rgb(255, 0, 0);
+    border-radius: 9px;
+    /* background-clip: text;
+  -webkit-background-clip: text; */
+  background: linear-gradient(70deg, blue, yellow, blue, yellow, blue);
+  border: 5mm ridge rgba(50, 132, 220, 0.6);
+  font-family: cursive;
+  box-shadow: 10px 12px 5px rgb(246, 255, 0);
+  /* scroll-behavior: smooth; */
+}
+
+.a100{
+    font-size: 22px;
+    text-shadow: rgb(255, 8, 0) 8px 0 8px;
+    font-family: cursive;
+    color: rgb(255, 242, 0);
+    text-decoration: none;
+}
+
+
+
+/* #content1{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: yellow;
+    border: 7px double blue;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: cursive;
+
+}
+
+.princes{
+    display: none;
+}
+
+#content-button1{
+    font-size: 15px;
+    font-family: cursive;
+    background-color: yellow;
+    border: 7px double blue;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+} */
+
+details {
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 10px double rgb(246, 255, 0);
+    border-radius: 14px;
+    padding: 1px;
+    width: 300px;
+    position:absolute;
+}
+
+summary {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px;
+    color: rgb(246, 255, 0);
+}
+
+details[open] {
+    padding: 10px;
+}
+
+details[open] summary {
+    border-bottom: 2px solid rgb(255, 251, 0);
+    margin-bottom: 1px;
+    font-size: 50px;
+}
+
+.hight-content{
+    font-size: 20px;
+    text-shadow: #FC0 3px 0 10px;
+    font-family: cursive;
+    color: rgb(255, 251, 0);
+}
+
+.comments{
+    font-size: 30px;
+    color: blue;
+    font-family: cursive;
+}
+
+/* #comment li{
+color: blue;
+background-color: rgb(82, 80, 73);
+font-size: 16px;
+padding: 10px;
+} */
+
+
+/* .todo {
+    display: inline-block;
+    margin: 20px auto;
+    border: 20px ridge rgb(255, 0, 0);
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-family: cursive;
+  }
+  
+  .todo__text,
+  .todo__add {
+    font-family: cursive;
+    font-size: 16px;
+  }
+  
+  .todo__add {
+    padding: 5px 10px;
+  }
+  
+  .todo__text {
+    padding: 5px;
+  }
+  
+  .todo__list {
+    text-align: left;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  
+  .todo__list-item {
+    cursor: pointer;
+    padding: 5px;
+    line-height: 20px;
+  }
+  
+  .todo__list-item:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  .todo__list-item:hover {
+    background-color: #aaa;
+  }
+  
+  .todo__list-item_completed_yes {
+    text-decoration: line-through;
+  }
+  
+  .todo__list-item-text {
+    display: inline-block;
+    max-width: 480px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .todo__list-item_completed_yes .todo__list-item-text {
+    text-decoration: line-through;
+  }
+  
+  .todo__list-item-remove {
+    float: right;
+    opacity: 0.3;
+    margin-left: 15px;
+  }
+  
+  .todo__list-item-remove:hover {
+    opacity: 1;
+  } */

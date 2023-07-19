@@ -1,0 +1,35 @@
+body{
+    background-image: url(Ukraine2.jpg);
+    background-size: 1600px;
+    border: 20px double black;
+    border-radius: 120px;
+}
+
+.button{
+    height: 60px;
+    width: 150px;
+    font-size: 40px;
+    background-color: blue;
+    color: rgb(255, 247, 0);
+    border-radius: 10px;
+    caret-color: blue;
+    text-shadow: #FC0 1px 0 10px;
+    font-family: cursive;
+}
+
+
+.text{
+    color: rgb(34, 0, 255);
+    font-size: 29px;
+    text-shadow: #FC0 1px 0 10px;
+    font-family: cursive;
+}
+
+.main-position{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    text-shadow: #FC0 1px 0 10px;
+    font-family: cursive;
+}
